@@ -1,0 +1,18 @@
+GGame khủng long nhảy ----------
++ Demo game:
+•	Người chơi điều kiển khủng long khéo léo  nhảy lên để vượt chướng ngại vật là cây sương rồng ,zombi và vật cản
+•	Càng vượt chướng ngại vật nhiều thì độ khó càng tăng lên chướng ngại vật xuất hiện càng nhiều và ghi điểm càng cao khi vượt qua thử thách
++ Cách cài đặt:
+  -Các bạn tải mã nguồn trên github của mình và cần có phần mền lập trình ,ở đây mình dùng.    visua code
++ các chức năng chính của hàm:
+ -bool init() khởi tạo
+-void close() đóng trương trình khi có lỗi
+-Bool load() hàm load ảnh ,bgr,nhạc mp3
+-SDL_Texture * loadT
+-SDL_Renderer*gRender
+-SDL_window*gwindow
+-TTF_Font*Font đều là các hàm sử lý kết xuất chứa tất cả thông tin về màn hình,vị trí kích thước
+SDL_Texture* walk[10]; SDL_Texture* run[8]; SDL_Texture* dead[8]; SDL_Texture* jump[12] các hàm chỉ hành động của khủng long
+
+
+
